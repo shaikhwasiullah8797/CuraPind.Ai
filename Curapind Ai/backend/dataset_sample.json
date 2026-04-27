@@ -1,0 +1,35 @@
+[
+    {
+        "patient_input": "My child is 4 years old, has had a high fever of 103 for two days, and is crying when looking at bright lights.",
+        "extracted_symptoms": [
+            "high fever",
+            "photophobia",
+            "pediatric"
+        ],
+        "triage_classification": "Critical",
+        "recommended_action": "Immediate referral to nearest hospital. Potential indicator of meningitis.",
+        "asha_guideline_reference": "WHO-Pediatric-Fever-04"
+    },
+    {
+        "patient_input": "I have had a dry cough for a week and my throat feels a bit scratchy. No fever.",
+        "extracted_symptoms": [
+            "dry cough",
+            "scratchy throat",
+            "afebrile"
+        ],
+        "triage_classification": "Non-Urgent",
+        "recommended_action": "Rest, hydration, and home remedies. Monitor for fever.",
+        "asha_guideline_reference": "WHO-Respiratory-01"
+    },
+    {
+        "patient_input": "I am 6 months pregnant and woke up with severe bleeding and stomach cramps.",
+        "extracted_symptoms": [
+            "pregnancy",
+            "vaginal bleeding",
+            "abdominal cramps"
+        ],
+        "triage_classification": "Emergency",
+        "recommended_action": "Call ambulance or arrange immediate transport to emergency maternal care unit.",
+        "asha_guideline_reference": "WHO-Maternal-Emergency-02"
+    }
+]

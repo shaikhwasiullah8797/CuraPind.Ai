@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\MD WASIULLAH\\anaconda3\\python.exe",
+    "python.terminal.useEnvFile": true,
+    "python.analysis.extraPaths": [
+        "C:\\Users\\MD WASIULLAH\\anaconda3\\Lib\\site-packages"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "css.lint.unknownAtRules": "ignore",
+    "git.ignoreLimitWarning": true
+}
