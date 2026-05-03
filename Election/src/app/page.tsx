@@ -164,7 +164,7 @@ export default function Home() {
         </section>
 
         <section className="mt-20 animate-fade-in" style={{ width: '100%', maxWidth: '900px', margin: '5rem auto' }}>
-          <h2 className="text-center mb-12 gradient-text text-pop">{t.electionUpdates}</h2>
+          <h2 className="text-center mb-12 gradient-text">{t.electionUpdates}</h2>
           <div className="grid gap-6" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
             <div className="glass-panel p-6 border-l-4" style={{ borderColor: 'var(--saffron)' }}>
               <h3 className="text-navy mb-2">{t.panchayatElection}</h3>

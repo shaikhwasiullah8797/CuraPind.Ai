@@ -33,7 +33,7 @@ export default function Navbar() {
           <LanguageSwitcher />
           <Link href="/" className="flex items-center gap-2 hover-scale" style={{ fontWeight: '900', fontSize: '1.25rem', marginLeft: '0.5rem' }}>
             <span className="text-saffron">●</span>
-            <span className="text-navy text-pop" style={{ whiteSpace: 'nowrap', textShadow: '0 2px 4px rgba(255,255,255,0.8)', letterSpacing: '1px' }}>{t.appName}</span>
+            <span className="text-navy" style={{ whiteSpace: 'nowrap', textShadow: '0 2px 4px rgba(255,255,255,0.8)', letterSpacing: '1px' }}>{t.appName}</span>
             <span className="text-green">●</span>
           </Link>
         </div>
