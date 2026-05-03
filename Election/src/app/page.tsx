@@ -11,6 +11,7 @@ export default function Home() {
   const { t, language } = useLanguage();
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 

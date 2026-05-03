@@ -46,14 +46,15 @@ export default function ChatPage() {
       });
 
       const data = await response.json();
-      
+
       if (!response.ok) {
         throw new Error(data.error || 'Failed to get response');
       }
 
       setMessages(prev => [...prev, { role: 'assistant', content: data.message }]);
-    } catch (error: any) {
-      setMessages(prev => [...prev, { role: 'assistant', content: `Error: ${error.message}` }]);
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
+      setMessages(prev => [...prev, { role: 'assistant', content: `Error: ${errorMessage}` }]);
     } finally {
       setIsLoading(false);
     }
@@ -67,12 +68,12 @@ export default function ChatPage() {
       </header>
 
       <div className="glass-panel flex-col" style={{ flex: 1, overflow: 'hidden', maxWidth: '800px', margin: '0 auto', width: '100%', padding: '0' }}>
-        
+
         <div style={{ flex: 1, overflowY: 'auto', padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {messages.map((msg, i) => (
-            <div 
-              key={i} 
-              style={{ 
+            <div
+              key={i}
+              style={{
                 alignSelf: msg.role === 'user' ? 'flex-end' : 'flex-start',
                 maxWidth: '80%',
                 padding: '1rem 1.5rem',
@@ -96,15 +97,15 @@ export default function ChatPage() {
 
         <div style={{ padding: '1rem 2rem', borderTop: '1px solid var(--glass-border)', backgroundColor: 'var(--glass-bg)' }}>
           <form onSubmit={handleSubmit} className="flex gap-4">
-            <input 
-              type="text" 
+            <input
+              type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your question here..."
-              style={{ 
-                flex: 1, 
-                padding: '1rem 1.5rem', 
-                borderRadius: 'var(--radius-full)', 
+              style={{
+                flex: 1,
+                padding: '1rem 1.5rem',
+                borderRadius: 'var(--radius-full)',
                 border: '1px solid var(--glass-border)',
                 backgroundColor: 'var(--bg-main)',
                 color: 'var(--text-main)',
@@ -113,9 +114,9 @@ export default function ChatPage() {
               }}
               disabled={isLoading}
             />
-            <button 
-              type="submit" 
-              className="btn btn-primary" 
+            <button
+              type="submit"
+              className="btn btn-primary"
               disabled={isLoading || !input.trim()}
               style={{ padding: '1rem 2rem' }}
             >
