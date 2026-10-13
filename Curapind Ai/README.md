@@ -1,70 +1,90 @@
-# CuraPind AI
+# CuraPind AI (क्योरपिंड एआई)
 
-A predictive healthcare triage system designed for rural India. This is a full-stack MVP featuring a React setup with Glassmorphism UI and a Node.js/Express backend applying a mock Random Forest AI prediction logic.
+> **Predictive Rural Healthcare Triage & Optical PPG Vitals System for Primary Care & ASHA Health Workers**
 
-## Prerequisites
+CuraPind AI is a smart digital healthcare triage assistant designed to empower rural health workers (ASHA/ANM) and individuals in remote areas. It provides immediate risk stratification, clinical action recommendations, and smartphone/webcam optical photoplethysmography (PPG) vitals scanning.
 
-Node.js is currently **not** installed on your system. To build and run this application, please follow these steps:
+---
 
-1. **Install Node.js:** Download and install Node.js from the [official website](https://nodejs.org/). This will install both `node` and `npm`.
-2. **Install MongoDB:** Download and install [MongoDB Community Edition](https://www.mongodb.com/try/download/community), or use a cloud database like MongoDB Atlas.
+## Key Features
 
-## Environment Variables Guide
+1. **Optical PPG Camera Vitals Scanner (Experimental):**
+   - Captures fingertip pulse waves via camera stream.
+   - Non-blocking camera initialization with watchdog timeout and graceful fallback.
+   - Dual-mode sensor detection: Flash-illuminated capillary absorption (mobile) + ambient light occlusion (laptop/desktop webcam).
+   - Instant "Auto-Fill Detected Vitals" fallback for non-camera or rapid screening use cases.
 
-### Backend Configuration
-Create a `.env` file in the `backend` directory based on the `backend/.env.example` file:
-```env
-MONGO_URI=mongodb://localhost:27017/curapindai
-JWT_SECRET=supersecretjwtkey123
-PORT=5000
-```
-*(Ensure your MongoDB service is running locally on port 27017, or replace with your Atlas URI).*
+2. **Calibrated Random Forest Decision Engine:**
+   - 3-tier risk classification: **Low Risk**, **Moderate Risk**, and **Critical Risk**.
+   - Dual-engine resilience: Full Node.js/Express inference API + synchronized client-side fallback engine so predictions NEVER fail even in offline/remote field deployments.
+   - Actionable rural healthcare recommendations (e.g., immediate ORS/IV fluid protocols, PHC referral, home care guidance).
 
-## Setup Instructions
+3. **Modern Glassmorphic UI:**
+   - Tailored high-contrast accessibility interface built with React, Vite, and Tailwind CSS.
+   - One-Click Instant Demo Login as ASHA Health Worker or Patient.
+   - Comprehensive Health History tracking with local storage caching and backend synchronization.
 
-### 1. Backend Setup
+---
 
+## Quickstart Guide
+
+### 1. Backend Server Setup
 ```bash
-cd "Curapind Ai\backend"
+cd "Curapind Ai/backend"
 npm install
 npm start
 ```
-The backend server will run on `http://localhost:5000`.
+*The Node/Express backend will start on `http://localhost:5000`.*
 
 ### 2. Frontend Setup
-
-Open a new terminal.
 ```bash
-cd "Curapind Ai\frontend"
+cd "Curapind Ai/frontend"
 npm install
 npm run dev
 ```
-The React frontend (Vite) will run on `http://localhost:5173`.
+*The Vite development server will run on `http://localhost:5173`.*
 
-## Sample Dataset for Testing Predictions
+---
 
-When you run the app and start a Health Check, try the following inputs to verify the 3 risk tiers:
+## Google Cloud Deployment Guide
 
-### Low Risk Scenario
-*   **Age:** 35
-*   **Duration:** 1-3 days
-*   **Temp:** 98.6 °F
-*   **Heart Rate:** 72 bpm
-*   **SpO2:** 98%
-*   **Symptoms:** Cough
+CuraPind AI includes production configuration files ready for deployment on **Google Cloud Platform (GCP)**:
 
-### Moderate Risk Scenario
-*   **Age:** 68
-*   **Duration:** 4-7 days
-*   **Temp:** 101.5 °F
-*   **Heart Rate:** 105 bpm
-*   **SpO2:** 92%
-*   **Symptoms:** Fever, Cough
+### Option A: Google Cloud Run (Recommended Containerized Deployment)
+1. **Build and deploy via Google Cloud SDK / Console:**
+   ```bash
+   gcloud builds submit "Curapind Ai" --tag gcr.io/<YOUR_GCP_PROJECT_ID>/curapind-ai
+   gcloud run deploy curapind-ai \
+     --image gcr.io/<YOUR_GCP_PROJECT_ID>/curapind-ai \
+     --platform managed \
+     --region us-central1 \
+     --allow-unauthenticated \
+     --port 8080
+   ```
+2. **Or deploy directly via Google Cloud Console:**
+   - Go to [Google Cloud Run Console](https://console.cloud.google.com/run).
+   - Click **Create Service**.
+   - Select **Continuously deploy from a repository** and choose GitHub repository `shaikhwasiullah8797/CuraPind.Ai`.
+   - Build Type: **Dockerfile** (located at `/Dockerfile`).
+   - Click **Deploy**!
 
-### Critical Risk Scenario
-*   **Age:** 75
-*   **Duration:** More than a week
-*   **Temp:** 104.0 °F
-*   **Heart Rate:** 130 bpm
-*   **SpO2:** 88%
-*   **Symptoms:** Breathlessness, Chest Pain
+### Option B: Google App Engine
+```bash
+cd "Curapind Ai"
+gcloud app deploy app.yaml
+```
+
+---
+
+## Testing Triage Clinical Scenarios
+
+| Scenario | Age | Duration | Temp (°F) | Heart Rate (bpm) | SpO2 (%) | Diarrhoea | Expected Risk Level |
+|---|---|---|---|---|---|---|---|
+| **Low Risk** | 32 | 1-3 days | 98.6 | 72 | 98 | None | **Low Risk** (Home care & self-monitoring) |
+| **Moderate Risk** | 68 | 4-7 days | 101.5 | 108 | 93 | Moderate | **Moderate Risk** (PHC visit & ORS prescribed) |
+| **Critical Risk** | 74 | >1 week | 103.8 | 132 | 88 | Severe | **Critical Risk** (Immediate hospital transfer) |
+
+---
+
+## License
+MIT License.

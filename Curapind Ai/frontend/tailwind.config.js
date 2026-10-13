@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        glass: "rgba(255, 255, 255, 0.25)",
+        glass: "rgba(117, 79, 79, 0.25)",
         glassborder: "rgba(255, 255, 255, 0.18)",
       }
     },

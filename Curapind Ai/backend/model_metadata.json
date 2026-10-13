@@ -1,0 +1,32 @@
+{
+    "dataset_source": "CDC NHAMCS (National Hospital Ambulatory Medical Care Survey)",
+    "years_used": [
+        2021,
+        2020,
+        2019,
+        2018
+    ],
+    "total_real_patients": 47917,
+    "train_samples": 38333,
+    "test_samples": 9584,
+    "test_accuracy": 1.0,
+    "feature_importances": {
+        "age": 0.0086,
+        "bodyTemperature": 0.4724,
+        "heartRate": 0.0011,
+        "spO2": 0.5142,
+        "diarrhoea_num": 0.0037
+    },
+    "feature_cols": [
+        "age",
+        "bodyTemperature",
+        "heartRate",
+        "spO2",
+        "diarrhoea_num"
+    ],
+    "classes": [
+        "Critical Risk",
+        "Low Risk",
+        "Moderate Risk"
+    ]
+}

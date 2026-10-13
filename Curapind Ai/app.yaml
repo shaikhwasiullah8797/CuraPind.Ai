@@ -1,0 +1,21 @@
+runtime: nodejs18
+instance_class: F1
+service: default
+
+env_variables:
+  NODE_ENV: 'production'
+
+handlers:
+  - url: /api/.*
+    script: auto
+    secure: always
+
+  - url: /(.*\.(js|css|png|jpg|svg|ico|json|woff2))$
+    static_files: frontend/dist/\1
+    upload: frontend/dist/.*
+    secure: always
+
+  - url: /.*
+    static_files: frontend/dist/index.html
+    upload: frontend/dist/index.html
+    secure: always

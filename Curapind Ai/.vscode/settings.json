@@ -1,3 +1,10 @@
 {
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "python.defaultInterpreterPath": "C:\\Users\\MD WASIULLAH\\anaconda3\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\MD WASIULLAH\\anaconda3\\Lib\\site-packages"
+  ],
+  "python.autoComplete.extraPaths": [
+    "C:\\Users\\MD WASIULLAH\\anaconda3\\Lib\\site-packages"
+  ]
 }

@@ -1,0 +1,41 @@
+name: Deploy to Google Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  SERVICE_NAME: curapind-ai
+  REGION: us-central1
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        if: env.PROJECT_ID != ''
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        if: env.PROJECT_ID != ''
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Build and Deploy to Cloud Run
+        if: env.PROJECT_ID != ''
+        run: |
+          gcloud builds submit "Curapind Ai" --tag gcr.io/$PROJECT_ID/$SERVICE_NAME
+          gcloud run deploy $SERVICE_NAME \
+            --image gcr.io/$PROJECT_ID/$SERVICE_NAME \
+            --platform managed \
+            --region $REGION \
+            --allow-unauthenticated \
+            --port 8080

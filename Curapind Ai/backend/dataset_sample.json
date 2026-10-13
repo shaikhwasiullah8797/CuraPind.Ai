@@ -1,35 +1,56 @@
 [
     {
-        "patient_input": "My child is 4 years old, has had a high fever of 103 for two days, and is crying when looking at bright lights.",
+        "patient_input": "3-year-old child with severe watery diarrhoea (>6 times today), sunken eyes, lethargic and irritable.",
         "extracted_symptoms": [
-            "high fever",
-            "photophobia",
+            "severe watery diarrhoea",
+            "dehydration",
+            "sunken eyes",
             "pediatric"
         ],
+        "diarrhoea": "Severe",
+        "vitals": {
+            "age": 3,
+            "bodyTemperature": 101.4,
+            "heartRate": 132,
+            "spO2": 93
+        },
         "triage_classification": "Critical",
-        "recommended_action": "Immediate referral to nearest hospital. Potential indicator of meningitis.",
-        "asha_guideline_reference": "WHO-Pediatric-Fever-04"
+        "recommended_action": "Emergency hospital admission. High risk of hypovolemic shock. Initiate IV Ringer's lactate or rapid ORS.",
+        "asha_guideline_reference": "WHO-IMCI-Diarrhoea-Severe-01"
     },
     {
-        "patient_input": "I have had a dry cough for a week and my throat feels a bit scratchy. No fever.",
+        "patient_input": "Adult patient has had loose stools 3-4 times for the past 2 days with mild stomach cramps and low fever.",
         "extracted_symptoms": [
-            "dry cough",
-            "scratchy throat",
-            "afebrile"
+            "moderate diarrhoea",
+            "abdominal cramps",
+            "low-grade fever"
         ],
-        "triage_classification": "Non-Urgent",
-        "recommended_action": "Rest, hydration, and home remedies. Monitor for fever.",
-        "asha_guideline_reference": "WHO-Respiratory-01"
+        "diarrhoea": "Moderate",
+        "vitals": {
+            "age": 34,
+            "bodyTemperature": 99.8,
+            "heartRate": 88,
+            "spO2": 98
+        },
+        "triage_classification": "Moderate Risk",
+        "recommended_action": "Refer to Primary Health Centre. Prescribe ORS packets, Zinc supplementation, and monitor urine output.",
+        "asha_guideline_reference": "WHO-Diarrhoea-Moderate-02"
     },
     {
-        "patient_input": "I am 6 months pregnant and woke up with severe bleeding and stomach cramps.",
+        "patient_input": "Mild loose stool once after eating street food, feeling otherwise fine with normal energy and appetite.",
         "extracted_symptoms": [
-            "pregnancy",
-            "vaginal bleeding",
-            "abdominal cramps"
+            "mild loose stool",
+            "normal hydration"
         ],
-        "triage_classification": "Emergency",
-        "recommended_action": "Call ambulance or arrange immediate transport to emergency maternal care unit.",
-        "asha_guideline_reference": "WHO-Maternal-Emergency-02"
+        "diarrhoea": "Mild",
+        "vitals": {
+            "age": 28,
+            "bodyTemperature": 98.4,
+            "heartRate": 74,
+            "spO2": 99
+        },
+        "triage_classification": "Low Risk",
+        "recommended_action": "Home care: Adequate fluid intake (coconut water, rice congee, clean water) and light diet.",
+        "asha_guideline_reference": "WHO-Diarrhoea-HomeCare-03"
     }
 ]
