@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import GlassCard from '../components/GlassCard';
-import { User, LogOut, Camera, Calendar, Mail, Loader, Info, X } from 'lucide-react';
+import { User, LogOut, Camera, Calendar, Mail, Loader, Info, X, ChevronLeft, Shield } from 'lucide-react';
 import api from '../api';
 
 const Profile = () => {
@@ -20,7 +20,6 @@ const Profile = () => {
       await api.put('/auth/profile', { role: newRole });
     } catch (err) {
       console.error("Failed to update role", err);
-      alert("Failed to update role.");
     }
   };
 
@@ -28,7 +27,7 @@ const Profile = () => {
     const file = e.target.files[0];
     if (!file) return;
 
-    if (file.size > 2 * 1024 * 1024) { // 2MB limit
+    if (file.size > 2 * 1024 * 1024) {
        alert("Image is too large. Please select an image under 2MB.");
        return;
     }
@@ -41,11 +40,8 @@ const Profile = () => {
 
       try {
         await api.put('/auth/profile', { profileImage: base64String });
-        // The context user object might need a full reload to reflect everywhere,
-        // but since we only display it in the profile right now, local state is enough!
       } catch (err) {
         console.error("Failed to upload image", err);
-        alert("Failed to upload profile picture.");
       }
       setLoading(false);
     };
@@ -56,7 +52,13 @@ const Profile = () => {
 
   return (
     <div className="space-y-6 animate-[fadeIn_0.5s_ease-out] flex flex-col items-center">
-      <h1 className="text-2xl font-bold text-white w-full max-w-sm text-center mb-4">My Profile</h1>
+      <div className="w-full flex items-center justify-between mb-2">
+        <button onClick={() => navigate('/')} className="hover:bg-zinc-800 p-2 rounded-xl transition-colors">
+          <ChevronLeft className="w-6 h-6 text-zinc-300" />
+        </button>
+        <h1 className="text-xl font-bold text-white text-center">My Profile</h1>
+        <div className="w-10"></div>
+      </div>
       
       <GlassCard className="w-full max-w-sm relative">
         <div className="flex flex-col items-center">
@@ -69,121 +71,57 @@ const Profile = () => {
                 onChange={handleImageUpload}
                 className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" 
              />
-             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-indigo-400 bg-black/20 flex items-center justify-center shadow-2xl relative">
+             <div className="w-24 h-24 rounded-full border-2 border-[#29A683] shadow-[0_0_20px_rgba(41,166,131,0.3)] overflow-hidden bg-zinc-900 flex items-center justify-center relative">
                 {profileImage ? (
-                   <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
+                  <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
                 ) : (
-                   <User className="w-16 h-16 text-indigo-300" />
+                  <User className="w-12 h-12 text-[#29A683]" />
                 )}
-                
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                   {loading ? <Loader className="w-8 h-8 text-white animate-spin" /> : <Camera className="w-8 h-8 text-white" />}
-                </div>
+                {loading && (
+                   <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+                      <Loader className="w-6 h-6 text-[#29A683] animate-spin" />
+                   </div>
+                )}
+             </div>
+             <div className="absolute bottom-0 right-0 bg-[#29A683] p-1.5 rounded-full text-black shadow-lg">
+                <Camera className="w-3.5 h-3.5 stroke-[2.5]" />
              </div>
           </div>
 
-          {/* User Details */}
-          <h2 className="text-3xl font-bold text-white tracking-wide">{user?.name}</h2>
-          <p className="text-indigo-300 font-medium mb-6">@{username}</p>
+          <h2 className="text-xl font-bold text-white mb-0.5">{user?.name || 'Healthcare User'}</h2>
+          <p className="text-xs text-[#29A683] font-mono mb-4">@{username}</p>
 
-          <div className="w-full space-y-4 text-left">
-             <div className="bg-white/5 rounded-xl p-4 flex items-center border border-white/10">
-                <Mail className="w-5 h-5 text-purple-300 mr-3" />
-                <div>
-                   <p className="text-white/50 text-xs uppercase tracking-wider font-semibold">Email</p>
-                   <p className="text-white font-medium">{user?.email}</p>
-                </div>
-             </div>
+          <div className="w-full space-y-3 pt-3 border-t border-zinc-800 text-sm">
+            <div className="flex items-center justify-between text-zinc-300 bg-zinc-900/80 p-2.5 rounded-xl border border-zinc-800">
+               <span className="flex items-center text-xs text-zinc-400">
+                  <Mail className="w-4 h-4 mr-2 text-[#29A683]" /> Email
+               </span>
+               <span className="font-medium text-xs text-white">{user?.email || 'N/A'}</span>
+            </div>
 
-             <div className="bg-white/5 rounded-xl p-4 flex items-center border border-white/10">
-                <User className="w-5 h-5 text-blue-300 mr-3" />
-                <div className="flex-1">
-                   <p className="text-white/50 text-xs uppercase tracking-wider font-semibold">Role</p>
-                   <select 
-                       value={localRole} 
-                       onChange={handleRoleChange}
-                       className="bg-transparent text-white font-medium outline-none cursor-pointer w-full"
-                   >
-                       <option value="Normal User" className="text-black">Normal User</option>
-                       <option value="ASHA" className="text-black">ASHA</option>
-                       {user?.role && !['Normal User', 'ASHA', 'User', 'Health Worker'].includes(user.role) && (
-                           <option value={user.role} className="text-black">{user.role}</option>
-                       )}
-                   </select>
-                </div>
-             </div>
-             
-             <div className="bg-white/5 rounded-xl p-4 flex items-center border border-white/10">
-                <Calendar className="w-5 h-5 text-green-300 mr-3" />
-                <div>
-                   <p className="text-white/50 text-xs uppercase tracking-wider font-semibold">Member Since</p>
-                   <p className="text-white font-medium">{user?.createdAt ? new Date(user.createdAt).toLocaleDateString() : 'Today'}</p>
-                </div>
-             </div>
+            <div className="flex items-center justify-between text-zinc-300 bg-zinc-900/80 p-2.5 rounded-xl border border-zinc-800">
+               <span className="flex items-center text-xs text-zinc-400">
+                  <Shield className="w-4 h-4 mr-2 text-[#29A683]" /> Role
+               </span>
+               <select 
+                  value={localRole}
+                  onChange={handleRoleChange}
+                  className="bg-black/50 border border-zinc-700 text-[#D2FF8F] text-xs font-bold rounded-lg px-2 py-1 outline-none"
+               >
+                  <option value="ASHA" className="bg-zinc-900 text-white">ASHA Worker</option>
+                  <option value="Normal User" className="bg-zinc-900 text-white">Citizen</option>
+               </select>
+            </div>
           </div>
+
+          <button 
+             onClick={logout}
+             className="w-full mt-6 py-2.5 bg-rose-500/10 hover:bg-rose-500/20 border border-rose-500/30 text-rose-300 font-semibold rounded-xl transition-all text-xs flex items-center justify-center"
+          >
+             <LogOut className="w-4 h-4 mr-1.5" /> Sign Out
+          </button>
         </div>
       </GlassCard>
-
-      {/* About Us Button */}
-      <button 
-         onClick={() => setShowAboutModal(true)}
-         className="w-full max-w-sm flex items-center justify-center p-4 bg-blue-500/20 border border-blue-500/40 hover:bg-blue-500/30 rounded-xl text-blue-200 font-bold transition-colors shadow-lg"
-      >
-         <Info className="w-5 h-5 mr-2" />
-         About Us
-      </button>
-
-      {/* Logout Button */}
-      <button 
-         onClick={() => { logout(); navigate('/login'); }}
-         className="w-full max-w-sm flex items-center justify-center p-4 bg-red-500/20 border border-red-500/40 hover:bg-red-500/30 rounded-xl text-red-200 font-bold transition-colors shadow-lg"
-      >
-         <LogOut className="w-5 h-5 mr-2" />
-         Logout from CuraPind AI
-      </button>
-
-      {/* Back Button */}
-      <button 
-         onClick={() => navigate('/')}
-         className="w-full max-w-sm py-3 text-white/70 hover:text-white transition-colors"
-      >
-         Back to Dashboard
-      </button>
-
-      {/* About Us Modal */}
-      {showAboutModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-[fadeIn_0.3s_ease-out]">
-          <GlassCard className="max-w-md w-full relative">
-            <button 
-              onClick={() => setShowAboutModal(false)}
-              className="absolute top-4 right-4 text-white/50 hover:text-white transition-colors"
-            >
-              <X className="w-6 h-6" />
-            </button>
-            <h2 className="text-2xl font-bold text-white mb-4 pr-8">About CuraPind AI</h2>
-            <div className="text-white/80 space-y-4">
-              <p>
-                Our AI model is designed to provide immediate health triaging and rural healthcare assistance. 
-                It leverages advanced natural language processing to listen to patient symptoms, analyze them 
-                against medical databases, and suggest potential preliminary diagnoses.
-              </p>
-              <p>
-                <strong>How it works:</strong>
-              </p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Users or health workers (ASHA) input their health data or symptoms.</li>
-                <li>The AI processes the inputs locally or via secure cloud APIs.</li>
-                <li>Provides actionable next steps, first-aid advice, or alerts for critical conditions.</li>
-              </ul>
-              <p className="text-sm text-white/60 mt-4 italic">
-                Disclaimer: CuraPind AI is an assistant tool and does not replace professional medical advice.
-              </p>
-            </div>
-          </GlassCard>
-        </div>
-      )}
-
     </div>
   );
 };

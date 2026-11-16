@@ -1,32 +1,46 @@
 {
-    "dataset_source": "CDC NHAMCS (National Hospital Ambulatory Medical Care Survey)",
-    "years_used": [
-        2021,
-        2020,
-        2019,
-        2018
+    "accuracy": 0.991,
+    "classes": [
+        "Critical Risk",
+        "Low Risk",
+        "Moderate Risk"
     ],
-    "total_real_patients": 47917,
-    "train_samples": 38333,
-    "test_samples": 9584,
-    "test_accuracy": 1.0,
     "feature_importances": {
-        "age": 0.0086,
-        "bodyTemperature": 0.4724,
-        "heartRate": 0.0011,
-        "spO2": 0.5142,
-        "diarrhoea_num": 0.0037
+        "shock_index": 0.1563,
+        "dehydration_score": 0.1402,
+        "age": 0.1256,
+        "heartRate": 0.1142,
+        "spO2": 0.1117,
+        "tachypnea_hypoxia_index": 0.08,
+        "map": 0.055,
+        "respiratoryRate": 0.0474,
+        "diarrhoea_num": 0.0396,
+        "elderly_hypoxia_risk": 0.0343,
+        "bodyTemperature": 0.0258,
+        "systolic_bp": 0.0229,
+        "diastolic_bp": 0.0183,
+        "acoustic_score": 0.017,
+        "danger_signs_count": 0.0082,
+        "tachypnea_flag": 0.0033
     },
     "feature_cols": [
         "age",
         "bodyTemperature",
         "heartRate",
         "spO2",
-        "diarrhoea_num"
+        "respiratoryRate",
+        "systolic_bp",
+        "diastolic_bp",
+        "shock_index",
+        "map",
+        "tachypnea_hypoxia_index",
+        "dehydration_score",
+        "elderly_hypoxia_risk",
+        "tachypnea_flag",
+        "acoustic_score",
+        "diarrhoea_num",
+        "danger_signs_count"
     ],
-    "classes": [
-        "Critical Risk",
-        "Low Risk",
-        "Moderate Risk"
-    ]
+    "trained_samples": 5000,
+    "critical_recall": 0.9809
 }

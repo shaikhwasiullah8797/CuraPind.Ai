@@ -42,10 +42,8 @@ const Login = () => {
       navigate('/');
     } catch (err) {
       console.warn('Backend authentication error, checking local fallback:', err);
-      // If network error / backend offline (e.g. GitHub Pages static hosting)
       const networkFailed = !err.response || err.code === 'ERR_NETWORK' || err.response?.status >= 500;
       if (networkFailed) {
-        // Fallback login so user is never trapped
         const fallbackUser = {
           id: 'user_' + Date.now(),
           name: formData.name || formData.email.split('@')[0] || 'Healthcare User',
@@ -65,22 +63,22 @@ const Login = () => {
   return (
     <GlassCard className="animate-[fadeIn_0.5s_ease-out]">
       <div className="flex justify-center mb-5">
-        <div className="bg-gradient-to-tr from-blue-500 to-indigo-600 p-4 rounded-full shadow-lg shadow-indigo-500/30">
-          <Stethoscope className="text-white w-10 h-10" />
+        <div className="bg-gradient-to-tr from-[#29A683] to-emerald-400 p-4 rounded-full shadow-[0_0_30px_rgba(41,166,131,0.4)]">
+          <Stethoscope className="text-black w-10 h-10 stroke-[2.5]" />
         </div>
       </div>
-      <h2 className="text-3xl font-bold text-center text-white mb-1 tracking-tight">CuraPind AI</h2>
-      <p className="text-center text-indigo-200 text-xs font-medium mb-2">Predictive Rural Healthcare Triage</p>
-      <p className="text-center text-white/70 text-sm mb-6">
+      <h2 className="text-3xl font-extrabold text-center text-white mb-1 tracking-tight">CuraPind AI</h2>
+      <p className="text-center text-[#29A683] text-xs font-bold uppercase tracking-wider mb-2">Predictive Rural Healthcare Triage</p>
+      <p className="text-center text-zinc-300 text-sm mb-6">
         {isLogin ? 'Welcome back! Sign in to continue.' : 'Create your account to start triage.'}
       </p>
 
-      {error && <div className="bg-red-500/20 border border-red-500/40 text-red-100 p-3 rounded-xl mb-4 text-center text-sm">{error}</div>}
+      {error && <div className="bg-red-500/20 border border-red-500/40 text-red-200 p-3 rounded-xl mb-4 text-center text-sm">{error}</div>}
 
       <form onSubmit={handleSubmit} className="space-y-4">
         {!isLogin && (
           <div>
-            <label className="block text-white/80 mb-1 ml-1 text-sm font-medium">Full Name</label>
+            <label className="block text-zinc-200 mb-1 ml-1 text-sm font-semibold">Full Name</label>
             <input 
               type="text" 
               name="name" 
@@ -93,19 +91,19 @@ const Login = () => {
           </div>
         )}
         <div>
-          <label className="block text-white/80 mb-1 ml-1 text-sm font-medium">Email Address</label>
+          <label className="block text-zinc-200 mb-1 ml-1 text-sm font-semibold">Email Address</label>
           <input 
             type="email" 
             name="email" 
             className="glass-input" 
-            placeholder="asha@curapind.com" 
+            placeholder="e.g. asha@curapind.com" 
             value={formData.email} 
             onChange={handleChange} 
             required 
           />
         </div>
         <div>
-          <label className="block text-white/80 mb-1 ml-1 text-sm font-medium">Password</label>
+          <label className="block text-zinc-200 mb-1 ml-1 text-sm font-semibold">Password</label>
           <input 
             type="password" 
             name="password" 
@@ -116,39 +114,45 @@ const Login = () => {
             required 
           />
         </div>
+
         <button 
           type="submit" 
-          disabled={loading}
-          className="glass-button w-full mt-2 font-semibold shadow-lg disabled:opacity-50"
+          disabled={loading} 
+          className="glass-button w-full mt-2"
         >
           {loading ? 'Authenticating...' : (isLogin ? 'Sign In' : 'Create Account')}
         </button>
       </form>
 
-      {/* Instant Demo Access Button */}
-      <div className="mt-5 pt-4 border-t border-white/10 text-center">
-        <p className="text-white/60 text-xs mb-3">Testing or evaluating CuraPind AI?</p>
-        <button 
-          type="button"
-          onClick={() => handleDemoLogin('Health Worker')}
-          className="w-full flex items-center justify-center py-2.5 px-4 bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-400/40 rounded-xl text-emerald-300 hover:text-emerald-200 text-xs font-semibold transition-all shadow-sm"
-        >
-          <UserCheck className="w-4 h-4 mr-2" />
-          One-Click Demo as Health Worker (ASHA)
-        </button>
+      <div className="mt-6 pt-4 border-t border-zinc-700/60">
+        <p className="text-center text-zinc-400 text-xs font-semibold uppercase tracking-wider mb-3">1-Click Demo Logins</p>
+        <div className="grid grid-cols-2 gap-2">
+          <button 
+            type="button" 
+            onClick={() => handleDemoLogin('Health Worker')}
+            className="p-2.5 bg-zinc-900 border border-[#29A683]/40 hover:border-[#29A683] rounded-xl text-xs font-bold text-[#D2FF8F] flex items-center justify-center transition-all shadow-sm"
+          >
+            <Shield className="w-3.5 h-3.5 mr-1 text-[#29A683]" />
+            ASHA Worker
+          </button>
+          <button 
+            type="button" 
+            onClick={() => handleDemoLogin('Patient')}
+            className="p-2.5 bg-zinc-900 border border-zinc-700 hover:border-zinc-500 rounded-xl text-xs font-bold text-zinc-200 flex items-center justify-center transition-all shadow-sm"
+          >
+            <UserCheck className="w-3.5 h-3.5 mr-1 text-zinc-400" />
+            Rural Citizen
+          </button>
+        </div>
       </div>
 
-      <div className="mt-5 text-center">
-        <p className="text-white/70 text-sm">
-          {isLogin ? "Don't have an account? " : "Already have an account? "}
-          <button 
-            type="button"
-            onClick={() => { setIsLogin(!isLogin); setError(''); }} 
-            className="text-blue-300 hover:text-white transition-colors font-medium ml-1"
-          >
-            {isLogin ? 'Sign up' : 'Login'}
-          </button>
-        </p>
+      <div className="text-center mt-5">
+        <button 
+          onClick={() => { setIsLogin(!isLogin); setError(''); }} 
+          className="text-xs text-[#29A683] hover:text-[#238C6E] font-semibold underline"
+        >
+          {isLogin ? "Don't have an account? Sign Up" : "Already have an account? Sign In"}
+        </button>
       </div>
     </GlassCard>
   );

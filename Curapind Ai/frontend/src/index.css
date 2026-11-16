@@ -4,34 +4,44 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-900 text-white min-h-screen font-sans antialiased;
+    @apply bg-gradient-to-br from-[#000000] via-[#07130e] to-[#040a07] text-[#F2F2F2] min-h-screen font-sans antialiased selection:bg-[#D2FF8F] selection:text-[#000000];
     margin: 0;
   }
 }
 
 @layer components {
+  /* CuraPind Deep Carbon Glass Panel with Mint/Teal Border */
   .glass-panel {
-    @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] rounded-2xl;
+    @apply bg-[#08130e]/85 backdrop-blur-xl border border-[#29A683]/35 shadow-[0_8px_32px_0_rgba(41,166,131,0.18)] rounded-2xl;
   }
+
+  /* High-Contrast Input with #238C6E border & #D2FF8F focus ring */
   .glass-input {
-    @apply w-full bg-white/5 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300;
+    @apply w-full bg-[#0d1d16]/90 border border-[#238C6E]/60 rounded-xl px-4 py-3 text-[#F2F2F2] placeholder-[#8ea096] focus:outline-none focus:ring-2 focus:ring-[#D2FF8F] focus:border-[#29A683] transition-all duration-300;
   }
+
+  /* Signature Action Button: #29A683 to #D2FF8F with bold black text */
   .glass-button {
-    @apply px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 rounded-xl font-semibold shadow-lg transform hover:scale-105 transition-all duration-300;
+    @apply px-6 py-3 bg-gradient-to-r from-[#29A683] via-[#3ebd95] to-[#D2FF8F] hover:from-[#238C6E] hover:to-[#D2FF8F] text-[#000000] font-extrabold tracking-wide rounded-xl shadow-[0_0_24px_rgba(41,166,131,0.45)] transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 disabled:opacity-40 disabled:hover:scale-100;
+  }
+
+  /* Secondary Button */
+  .glass-button-secondary {
+    @apply px-6 py-3 bg-[#0d1d16]/80 hover:bg-[#12281e] border border-[#238C6E]/70 hover:border-[#29A683] text-[#F2F2F2] font-semibold rounded-xl transition-all duration-200;
   }
 }
 
-/* Custom Scrollbar for a premium feel */
+/* Custom Scrollbar styled with #29A683 and #D2FF8F */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: #000000;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(41, 166, 131, 0.45);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #D2FF8F;
 }

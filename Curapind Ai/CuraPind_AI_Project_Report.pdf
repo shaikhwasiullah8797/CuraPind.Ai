@@ -1,0 +1,2598 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Font <<
+  /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+  /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+  /F3 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+  /F4 << /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+>> >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 10 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 11 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 12 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 13 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 14 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 15 0 R >>
+endobj
+10 0 obj
+<< /Length 2968 >>
+stream
+0.160 0.650 0.510 rg
+0.00 823.89 595.28 18.00 re
+f
+0.824 1.000 0.561 rg
+0.00 817.89 595.28 6.00 re
+f
+0.975 0.990 0.985 rg
+0.160 0.650 0.510 RG
+1.50 w
+45.00 130.94 505.28 560.00 re
+B
+0.137 0.549 0.431 rg
+45.00 130.94 8.00 560.00 re
+f
+0.880 0.960 0.920 rg
+0.160 0.650 0.510 RG
+1.00 w
+182.64 645.94 230.00 22.00 re
+B
+BT
+/F2 8.5 Tf
+0.100 0.450 0.320 rg
+200.64 659.94 Td
+(CURAPIND CLINICAL CDS v24.15.0) Tj
+ET
+BT
+/F2 36 Tf
+0.040 0.080 0.060 rg
+75.00 590.94 Td
+(CuraPind AI) Tj
+ET
+BT
+/F2 16 Tf
+0.160 0.650 0.510 rg
+75.00 558.94 Td
+(Predictive Rural Healthcare Triage) Tj
+ET
+BT
+/F1 11 Tf
+0.250 0.350 0.320 rg
+75.00 534.94 Td
+(Optical PPG Vitals & AI Clinical Decision Support System) Tj
+ET
+0.824 1.000 0.561 RG
+3.00 w
+75.00 514.94 m 520.28 514.94 l S
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 484.94 Td
+(An intelligent, offline-first clinical decision support engine tailored for Accredited) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 468.94 Td
+(Social Health Activists \(ASHA\), Auxiliary Nurse Midwives \(ANM\), and Primary Health) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 452.94 Td
+(Centres \(PHC\) across rural and remote regions of India.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 436.94 Td
+() Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 420.94 Td
+(Built with dual-engine fallback resilience \(Express REST API + Client-Side WASM/JS\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 404.94 Td
+(clinical feature engineering \(Shock Index, Tachypnea-Hypoxia Index, Dehydration Scoring\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 388.94 Td
+(optical smartphone PPG pulse detection, and IDSP-compliant outbreak surveillance.) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.900 0.880 RG
+1.00 w
+75.00 237.94 445.28 120.00 re
+B
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 337.94 Td
+(Core Architecture:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 337.94 Td
+(React 18 SPA + Node.js 24 + Python ML Pipeline) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 320.94 Td
+(Machine Learning:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 320.94 Td
+(Balanced Random Forest \(200 Trees\) - 99.1% Accuracy) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 303.94 Td
+(Explainability:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 303.94 Td
+(Point-of-Care SHAP Top-3 Plain-Language Risk Drivers) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 286.94 Td
+(Sensory Modalities:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 286.94 Td
+(Camera Optical PPG \(0.7-4.0 Hz\) + Acoustic Cough FFT) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 269.94 Td
+(Target Deployment:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 269.94 Td
+(Google Cloud Run & Offline Village Health Sub-Centres) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 252.94 Td
+(License & Status:) Tj
+ET
+BT
+/F1 8.5 Tf
+0.180 0.220 0.200 rg
+215.00 252.94 Td
+(MIT Open Source - Production Ready Verified Suite) Tj
+ET
+0.160 0.650 0.510 rg
+0.00 14.00 595.28 10.00 re
+f
+0.824 1.000 0.561 rg
+0.00 24.00 595.28 4.00 re
+f
+
+endstream
+endobj
+11 0 obj
+<< /Length 10630 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Comprehensive Project Report) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 2) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Rural Healthcare CDS  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(1. Executive Summary & Clinical Mission) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(CuraPind AI is a specialized clinical triage and decision support suite designed to empower Accredited) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(Social Health Activists \(ASHA\), Auxiliary Nurse Midwives \(ANM\), and primary care providers in rural) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 704.89 Td
+(India. By translating non-invasive physiological observations into validated medical risk) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 690.89 Td
+(stratification, CuraPind AI bridges the critical rural health specialist deficit.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 672.89 Td
+(Patients are classified into three medically calibrated tiers: \(1\) Low Risk \(home observation and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 658.89 Td
+(hydration\), \(2\) Moderate Risk \(PHC referral within 24-48 hours\), and \(3\) Critical Risk \(immediate) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 644.89 Td
+(hospital stabilization\). The system incorporates camera photoplethysmography \(PPG\), acoustic) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 630.89 Td
+(respiratory analysis, and WHO Integrated Management of Childhood Illness \(IMCI\) protocols into an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 616.89 Td
+(intuitive 2-step wizard.) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 534.89 505.28 74.00 re
+B
+0.137 0.549 0.431 rg
+45.00 534.89 4.00 74.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 594.89 Td
+(OFFLINE AUTONOMY MANDATE: Over 60% of rural sub-centres experience severe connectivity) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 580.89 Td
+(dropouts. CuraPind AI implements a full client-side mirror of its inference engine, ensuring) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 566.89 Td
+(100% of triage classifications, QR referral generation, and local surveillance logging) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 552.89 Td
+(operate without active internet.) Tj
+ET
+0.960 0.980 0.970 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 476.89 118.82 44.00 re
+B
+0.824 1.000 0.561 rg
+45.00 476.89 118.82 3.00 re
+f
+BT
+/F2 15 Tf
+0.137 0.549 0.431 rg
+53.00 500.89 Td
+(99.1%) Tj
+ET
+BT
+/F2 7.5 Tf
+0.350 0.420 0.400 rg
+53.00 486.89 Td
+(MODEL ACCURACY) Tj
+ET
+0.960 0.980 0.970 rg
+0.160 0.650 0.510 RG
+1.00 w
+173.82 476.89 118.82 44.00 re
+B
+0.824 1.000 0.561 rg
+173.82 476.89 118.82 3.00 re
+f
+BT
+/F2 15 Tf
+0.137 0.549 0.431 rg
+181.82 500.89 Td
+(98.1%) Tj
+ET
+BT
+/F2 7.5 Tf
+0.350 0.420 0.400 rg
+181.82 486.89 Td
+(CRITICAL RECALL) Tj
+ET
+0.960 0.980 0.970 rg
+0.160 0.650 0.510 RG
+1.00 w
+302.64 476.89 118.82 44.00 re
+B
+0.824 1.000 0.561 rg
+302.64 476.89 118.82 3.00 re
+f
+BT
+/F2 15 Tf
+0.137 0.549 0.431 rg
+310.64 500.89 Td
+(16) Tj
+ET
+BT
+/F2 7.5 Tf
+0.350 0.420 0.400 rg
+310.64 486.89 Td
+(ENGINEERED FEATURES) Tj
+ET
+0.960 0.980 0.970 rg
+0.160 0.650 0.510 RG
+1.00 w
+431.46 476.89 118.82 44.00 re
+B
+0.824 1.000 0.561 rg
+431.46 476.89 118.82 3.00 re
+f
+BT
+/F2 15 Tf
+0.137 0.549 0.431 rg
+439.46 500.89 Td
+(100%) Tj
+ET
+BT
+/F2 7.5 Tf
+0.350 0.420 0.400 rg
+439.46 486.89 Td
+(OFFLINE CAPABLE) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 424.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 424.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 431.89 Td
+(2. Technology Stack & Component Architecture) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 394.89 Td
+(Frontend Framework \(React 18 + Vite 4\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 391.89 m 550.28 391.89 l S
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 360.89 110.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 365.89 Td
+(Technology) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+155.00 360.89 80.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+160.00 365.89 Td
+(Version) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+235.00 360.89 315.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+240.00 365.89 Td
+(Role in System) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 342.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 347.89 Td
+(React) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 342.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 347.89 Td
+(18.2.0) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 342.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 347.89 Td
+(Reactive UI component tree, sensor loops, state context) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 324.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 329.89 Td
+(Vite) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 324.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 329.89 Td
+(4.4.5) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 324.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 329.89 Td
+(High-performance ES module bundler, fast HMR, small chunks) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 306.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 311.89 Td
+(Tailwind CSS) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 306.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 311.89 Td
+(3.3.3) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 306.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 311.89 Td
+(Custom rural high-contrast palette \(#29A683, #D2FF8F\)) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 288.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 293.89 Td
+(React Router DOM) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 288.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 293.89 Td
+(6.14.2) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 288.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 293.89 Td
+(HashRouter client-side routing for zero-server hosting) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 270.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 275.89 Td
+(Axios) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 270.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 275.89 Td
+(1.4.0) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 270.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 275.89 Td
+(HTTP client with automatic JWT bearer interceptors) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 252.89 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 257.89 Td
+(Lucide React) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 252.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 257.89 Td
+(0.263.1) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+235.00 252.89 315.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+240.00 257.89 Td
+(Standardized medical and navigation SVG iconography) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 224.89 Td
+(Backend & Machine Learning Ecosystem) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 221.89 m 550.28 221.89 l S
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 190.89 125.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 195.89 Td
+(Framework / Library) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+170.00 190.89 80.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+175.00 195.89 Td
+(Runtime) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+250.00 190.89 300.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+255.00 195.89 Td
+(Purpose & Architectural Responsibility) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 172.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 177.89 Td
+(Node.js / Express.js) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+170.00 172.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+175.00 177.89 Td
+(v24.15.0) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+250.00 172.89 300.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+255.00 177.89 Td
+(REST API controller, JWT auth, village outbreak surveillance) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 154.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 159.89 Td
+(Scikit-Learn) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+170.00 154.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+175.00 159.89 Td
+(Python 3.x) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+250.00 154.89 300.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+255.00 159.89 Td
+(RandomForestClassifier \(200 trees, class_weight='balanced'\)) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 136.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 141.89 Td
+(SHAP) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+170.00 136.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+175.00 141.89 Td
+(Python 3.x) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+250.00 136.89 300.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+255.00 141.89 Td
+(TreeExplainer for patient-level feature attribution + Saabas) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 118.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 123.89 Td
+(SciPy / NumPy) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+170.00 118.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+175.00 123.89 Td
+(Python 3.x) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+250.00 118.89 300.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+255.00 123.89 Td
+(Butterworth bandpass filtering \(0.7-4.0 Hz\), peak detection,..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 100.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 105.89 Td
+(In-Memory Store) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+170.00 100.89 80.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+175.00 105.89 Td
+(dbStore.js) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+250.00 100.89 300.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+255.00 105.89 Td
+(JSON database store with automatic graceful disk persistence) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+<< /Length 7127 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Comprehensive Project Report) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 3) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Rural Healthcare CDS  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(3. System Architecture & Dual Inference Topology) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(CuraPind AI deploys a resilient dual-inference architecture. While standard cloud deployments route) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(requests through an Express.js microservice, a client-side JavaScript engine \(triageEngine.js\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 704.89 Td
+(provides an exact mathematical mirror of the inference pipeline. If a network outage occurs, the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 690.89 Td
+(application switches transparently to local evaluation without user disruption.) Tj
+ET
+0.040 0.080 0.060 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 316.89 505.28 366.00 re
+B
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 668.89 Td
+(+-----------------------------------------------------------------------------------+) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 656.39 Td
+(|                             PATIENT ENCOUNTER FLOW                                |) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 643.89 Td
+(+-----------------------------------------------------------------------------------+) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 631.39 Td
+(  [1. Optical Camera PPG]     [2. Acoustic Cough AI]     [3. WHO Clinical Check]     ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 618.89 Td
+(          |                            |                            |                ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 606.39 Td
+(          +----------------------------+----------------------------+                ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 593.89 Td
+(                                       |                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 581.39 Td
+(                                       v                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 568.89 Td
+(                    [ CLINICAL FEATURE ENGINEERING ENGINE ]                          ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 556.39 Td
+(                 Shock Index | MAP | Tachypnea-Hypoxia Index                         ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 543.89 Td
+(                 Dehydration Score | Elderly Hypoxia Risk                            ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 531.39 Td
+(                                       |                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 518.89 Td
+(                                       v                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 506.39 Td
+(                           [ DUAL INFERENCE ENGINE ]                                 ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 493.89 Td
+(                    /                                     \\                          ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 481.39 Td
+(        \(Online Available\)                           \(Offline Mode\)                  ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 468.89 Td
+(      Express /api/predict                       Browser triageEngine.js             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 456.39 Td
+(                    \\                                     /                          ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 443.89 Td
+(                     +-----------------+-----------------+                           ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 431.39 Td
+(                                       |                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 418.89 Td
+(                                       v                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 406.39 Td
+(                   [ TRIAGE RISK LEVEL + TOP 3 SHAP DRIVERS ]                        ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 393.89 Td
+(                                       |                                             ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 381.39 Td
+(                 +---------------------+---------------------+                       ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 368.89 Td
+(                 |                                           |                       ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 356.39 Td
+(                 v                                           v                       ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 343.89 Td
+(      [ PHC Referral Bridge ]                     [ BMO Surveillance Log ]           ) Tj
+ET
+BT
+/F4 7.8 Tf
+0.824 1.000 0.561 rg
+57.00 331.39 Td
+(    QR Slip \(GF256\) + SMS Note                 Cluster Detection \(IDSP 48h\)          ) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 270.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 270.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 277.89 Td
+(4. Sensory Modules & Digital Signal Processing) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 240.89 Td
+(4.1 Camera Pulse Check \(PPGScanner.jsx - 689 lines\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 237.89 m 550.28 237.89 l S
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 217.39 Td
+(* Optically captures capillary blood volume changes through fingertip placement over the camera) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 203.89 Td
+(lens.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 187.39 Td
+(* SciPy Butterworth Filter: 2nd-order bandpass filter tuned to 0.7 Hz - 4.0 Hz \(42 to 240 BPM\).) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 170.89 Td
+(* Signal Quality Index \(SQI\): Rejects motion artifact if peak regularity and amplitude stability <) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 157.39 Td
+(75%.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 140.89 Td
+(* Automatic Torch Activation: Engages camera flash on supported Android/iOS mobile browsers.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 124.39 Td
+(* Safety Demo Fallback: Includes calibrated simulated pulse waveforms for offline hackathon) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 110.89 Td
+(testing.) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 89.89 Td
+(4.2 Acoustic Cough & Breath Analyzer \(AcousticAnalyzer.jsx - 410 lines\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 86.89 m 550.28 86.89 l S
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 66.39 Td
+(* Captures 5-second 16-bit PCM respiratory audio via browser Web Audio API AnalyserNode \(FFT size) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 52.89 Td
+(2048\).) Tj
+ET
+
+endstream
+endobj
+13 0 obj
+<< /Length 1050 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Comprehensive Project Report) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 4) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Rural Healthcare CDS  |  MIT Open Source) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 783.39 Td
+(* Extracts spectral biomarkers: Spectral Centroid, RMS Energy, Zero-Crossing Rate, and 5-band) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 769.89 Td
+(MFCCs.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 753.39 Td
+(* Classifies acoustic profile into: Normal Breathing, Dry Cough, Wet Productive Cough, or) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 739.89 Td
+(Wheezing.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 723.39 Td
+(* Computes continuous Acoustic Respiratory Score \(0.0 to 1.0\) directly factored into triage) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 709.89 Td
+(scoring.) Tj
+ET
+
+endstream
+endobj
+14 0 obj
+<< /Length 9630 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Comprehensive Project Report) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 5) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Rural Healthcare CDS  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(5. Clinical Feature Engineering \(16 Features\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(Raw vital signs are mapped into non-linear physiological indices in featureEngineering.js and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(feature_engineering.py:) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 690.89 115.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 695.89 Td
+(Feature Name) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+160.00 690.89 140.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+165.00 695.89 Td
+(Calculation Formula) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+300.00 690.89 250.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+305.00 695.89 Td
+(Diagnostic Significance) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 672.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 677.89 Td
+(Shock Index \(SI\)) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 672.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 677.89 Td
+(Heart Rate / Systolic BP) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 672.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 677.89 Td
+(Normal 0.5-0.7. Values > 1.0 indicate occult shock) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 654.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 659.89 Td
+(Mean Arterial Pressure) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 654.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 659.89 Td
+(DBP + \(SBP - DBP\) / 3) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 654.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 659.89 Td
+(Organ perfusion gauge. Critical cutoff < 65 mmHg) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 636.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 641.89 Td
+(Tachypnea-Hypoxia Index) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 636.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 641.89 Td
+(0.40\(RR\) + 0.35\(SpO2\) + 0.2..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 636.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 641.89 Td
+(Early respiratory failure detection prior to sever..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 618.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 623.89 Td
+(Dehydration Severity) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 618.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 623.89 Td
+(Diarrhoea + Duration + Drink) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 618.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 623.89 Td
+(0-5 scale. Scores >= 4.0 mandate immediate IV/ORS ..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 600.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 605.89 Td
+(Elderly Hypoxia Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 600.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 605.89 Td
+(Age x \(100 - SpO2\) x \(SI - ..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 600.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 605.89 Td
+(Identifies afebrile Silent Hypoxia in patients > 5..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 582.89 115.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 587.89 Td
+(Age-Adjusted Tachypnea) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+160.00 582.89 140.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+165.00 587.89 Td
+(WHO IMCI Thresholds) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+300.00 582.89 250.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+305.00 587.89 Td
+(<1y: 50, 1-5y: 40, >12y: 22 bpm flags respiratory ..) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 534.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 534.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 541.89 Td
+(6. Machine Learning Evaluation & SHAP Explainability) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 508.89 Td
+(The Balanced Random Forest \(200 trees, class_weight='balanced'\) was evaluated against a 5,000-sample) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 494.89 Td
+(augmented clinical dataset containing deliberate edge cases \(Silent Hypoxia, Sepsis, Severe) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 480.89 Td
+(Dehydration\):) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 452.89 130.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 457.89 Td
+(Triage Classification) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+175.00 452.89 90.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+180.00 457.89 Td
+(Precision) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+265.00 452.89 90.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+270.00 457.89 Td
+(Recall) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+355.00 452.89 90.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+360.00 457.89 Td
+(F1-Score) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+445.00 452.89 105.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+450.00 457.89 Td
+(Test Support) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 434.89 130.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 439.89 Td
+(Critical Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+175.00 434.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+180.00 439.89 Td
+(0.981) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+265.00 434.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+270.00 439.89 Td
+(0.981) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+355.00 434.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+360.00 439.89 Td
+(0.981) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+445.00 434.89 105.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+450.00 439.89 Td
+(209 patients) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 416.89 130.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 421.89 Td
+(Moderate Risk) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+175.00 416.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+180.00 421.89 Td
+(0.990) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+265.00 416.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+270.00 421.89 Td
+(0.992) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+355.00 416.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+360.00 421.89 Td
+(0.991) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+445.00 416.89 105.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+450.00 421.89 Td
+(502 patients) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 398.89 130.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 403.89 Td
+(Low Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+175.00 398.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+180.00 403.89 Td
+(1.000) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+265.00 398.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+270.00 403.89 Td
+(0.997) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+355.00 398.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+360.00 403.89 Td
+(0.998) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+445.00 398.89 105.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+450.00 403.89 Td
+(289 patients) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 380.89 130.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 385.89 Td
+(Macro Average) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+175.00 380.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+180.00 385.89 Td
+(0.990) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+265.00 380.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+270.00 385.89 Td
+(0.990) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+355.00 380.89 90.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+360.00 385.89 Td
+(0.990) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+445.00 380.89 105.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+450.00 385.89 Td
+(1,000 patients) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 352.89 Td
+(Point-of-Care Explainability \(SHAP Top-3 Drivers\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 349.89 m 550.28 349.89 l S
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 328.89 Td
+(To foster trust among community health workers, every triage classification delivers the top 3) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 314.89 Td
+(plain-language clinical risk drivers computed from exact tree attribution:) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 260.89 505.28 46.00 re
+B
+0.137 0.549 0.431 rg
+45.00 260.89 4.00 46.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 292.89 Td
+(CLINICAL RISK DRIVERS DISPLAY EXAMPLE: 1. Elevated Shock Index \(1.28\) | 2. Severe Tachypnea) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 278.89 Td
+(\(28 bpm\) | 3. Symptom Duration > 3 Days) Tj
+ET
+
+endstream
+endobj
+15 0 obj
+<< /Length 10617 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Comprehensive Project Report) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 6) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Rural Healthcare CDS  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(7. Automated Clinical Verification Test Suite) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(The automated verification suite \(verify_clinical_cases.py\) executes a hybrid test harness validating) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(both Python feature modules and the live Express route handlers:) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 690.89 40.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 695.89 Td
+(Case #) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+85.00 690.89 125.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+90.00 695.89 Td
+(Clinical Scenario) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+210.00 690.89 175.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+215.00 695.89 Td
+(Input Vitals) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+385.00 690.89 95.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+390.00 695.89 Td
+(Expected Result) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+480.00 690.89 70.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+485.00 695.89 Td
+(Status) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 672.89 40.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 677.89 Td
+(1) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+85.00 672.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+90.00 677.89 Td
+(Normal Baseline) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+210.00 672.89 175.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+215.00 677.89 Td
+(Temp 98.6F, HR 78, SpO2 98%, RR 16) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+385.00 672.89 95.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+390.00 677.89 Td
+(Low Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+480.00 672.89 70.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+485.00 677.89 Td
+(PASSED) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 654.89 40.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 659.89 Td
+(2) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+85.00 654.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+90.00 659.89 Td
+(Silent Hypoxia Trap) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+210.00 654.89 175.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+215.00 659.89 Td
+(Age 65, Temp 98.8F \(afebrile\), SpO..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+385.00 654.89 95.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+390.00 659.89 Td
+(Critical Risk) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+480.00 654.89 70.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+485.00 659.89 Td
+(PASSED) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 636.89 40.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 641.89 Td
+(3) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+85.00 636.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+90.00 641.89 Td
+(Early Sepsis & Shock) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+210.00 636.89 175.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+215.00 641.89 Td
+(HR 118, BP 92/60 \(SI=1.28\), Mod Di..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+385.00 636.89 95.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+390.00 641.89 Td
+(Critical Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+480.00 636.89 70.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+485.00 641.89 Td
+(PASSED) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 618.89 40.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 623.89 Td
+(4) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+85.00 618.89 125.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+90.00 623.89 Td
+(BMO Outbreak Trigger) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+210.00 618.89 175.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+215.00 623.89 Td
+(5 diarrhoeal cases in Chandpur wit..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+385.00 618.89 95.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+390.00 623.89 Td
+(Outbreak Alert) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+480.00 618.89 70.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+485.00 623.89 Td
+(PASSED) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 570.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 570.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 577.89 Td
+(8. Referral Bridge & Epidemiological Outbreak Surveillance) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 540.89 Td
+(Zero-Dependency QR Code & SMS Referral Bridge \(ReferralBridge.jsx\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 537.89 m 550.28 537.89 l S
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 517.39 Td
+(* QR Code Slip: Custom Galois Field GF\(256\) Reed-Solomon encoder embedded in browser \(no npm) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 503.89 Td
+(package needed\).) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 487.39 Td
+(* Encodes compact JSON: Patient vitals, triage risk level, confidence score, and top 3 SHAP) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 473.89 Td
+(drivers.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 457.39 Td
+(* 1-Tap Offline SMS: Generates pre-filled SOAP note \(Subjective, Objective, Assessment, Plan\) for) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 443.89 Td
+(local PHC doctors.) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 422.89 Td
+(Block Medical Officer \(BMO\) Outbreak Surveillance \(BMOSurveillance.jsx\)) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 419.89 m 550.28 419.89 l S
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 399.39 Td
+(* Integrated Disease Surveillance Programme \(IDSP\) compliant village cluster monitoring.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 382.89 Td
+(* Monitors fever, diarrhoea, and acute respiratory illness across village wards in rolling 48-hour) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 369.39 Td
+(windows.) Tj
+ET
+BT
+/F2 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 352.89 Td
+(* Cluster Threshold: Automatically triggers outbreak alert banners when >= 5 syndrome cases occur) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 339.39 Td
+(in one village.) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 298.39 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 298.39 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 305.39 Td
+(9. High-Contrast Rural UI/UX Design System) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 272.39 Td
+(The entire front-end has been rebranded into a high-contrast clinical green/teal palette optimized for) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 258.39 Td
+(rural sunlight legibility:) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 230.39 110.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 235.39 Td
+(Design Token) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+155.00 230.39 100.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+160.00 235.39 Td
+(Hex Code) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+255.00 230.39 295.00 18.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+260.00 235.39 Td
+(Clinical & Ergonomic Purpose) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 212.39 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 217.39 Td
+(Primary Mint) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 212.39 100.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 217.39 Td
+(#29A683) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+255.00 212.39 295.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+260.00 217.39 Td
+(Main brand contours, icons, interactive focus glows) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 194.39 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 199.39 Td
+(Lime Accent) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 194.39 100.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 199.39 Td
+(#D2FF8F) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+255.00 194.39 295.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+260.00 199.39 Td
+(High-visibility primary buttons, live pulse waveforms, badges) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 176.39 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 181.39 Td
+(Teal Border) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 176.39 100.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 181.39 Td
+(#238C6E) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+255.00 176.39 295.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+260.00 181.39 Td
+(Secondary borders, card contours, input field delimiters) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 158.39 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 163.39 Td
+(Dark Background) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 158.39 100.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 163.39 Td
+(#000000 / #07120d) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+255.00 158.39 295.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+260.00 163.39 Td
+(OLED battery conservation for long mobile field shifts) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 140.39 110.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 145.39 Td
+(High-Contrast White) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+155.00 140.39 100.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+160.00 145.39 Td
+(#F2F2F2) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+255.00 140.39 295.00 18.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+260.00 145.39 Td
+(WCAG AAA compliant typography against dark surfaces) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 66.39 505.28 60.00 re
+B
+0.137 0.549 0.431 rg
+45.00 66.39 4.00 60.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 112.39 Td
+(CONCLUSION: CuraPind AI demonstrates how cutting-edge machine learning, optical signal) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 98.39 Td
+(processing, and resilient offline-first software engineering can converge to protect) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 84.39 Td
+(vulnerable rural communities. Built with care for rural India.) Tj
+ET
+
+endstream
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000145 00000 n 
+0000000433 00000 n 
+0000000544 00000 n 
+0000000655 00000 n 
+0000000766 00000 n 
+0000000877 00000 n 
+0000000988 00000 n 
+0000001099 00000 n 
+0000004120 00000 n 
+0000014804 00000 n 
+0000021984 00000 n 
+0000023087 00000 n 
+0000032770 00000 n 
+trailer << /Size 16 /Root 1 0 R >>
+startxref
+43441
+%%EOF

@@ -1,0 +1,1370 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 5 0 R 6 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Font <<
+  /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+  /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+  /F3 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+  /F4 << /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+>> >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 7 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 8 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources 3 0 R /Contents 9 0 R >>
+endobj
+7 0 obj
+<< /Length 3033 >>
+stream
+0.160 0.650 0.510 rg
+0.00 823.89 595.28 18.00 re
+f
+0.824 1.000 0.561 rg
+0.00 817.89 595.28 6.00 re
+f
+0.975 0.990 0.985 rg
+0.160 0.650 0.510 RG
+1.50 w
+45.00 130.94 505.28 560.00 re
+B
+0.137 0.549 0.431 rg
+45.00 130.94 8.00 560.00 re
+f
+0.880 0.960 0.920 rg
+0.160 0.650 0.510 RG
+1.00 w
+167.64 645.94 260.00 22.00 re
+B
+BT
+/F2 8.5 Tf
+0.100 0.450 0.320 rg
+181.64 659.94 Td
+(EVIDENCE & CITATIONS BIBLIOGRAPHY) Tj
+ET
+BT
+/F2 34 Tf
+0.040 0.080 0.060 rg
+75.00 590.94 Td
+(CuraPind AI) Tj
+ET
+BT
+/F2 14 Tf
+0.160 0.650 0.510 rg
+75.00 558.94 Td
+(Clinical Datasets, Guidelines & Research Citations) Tj
+ET
+BT
+/F1 10.5 Tf
+0.250 0.350 0.320 rg
+75.00 534.94 Td
+(Comprehensive Source Bibliography for Rural Healthcare Triage) Tj
+ET
+0.824 1.000 0.561 RG
+3.00 w
+75.00 514.94 m 520.28 514.94 l S
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 484.94 Td
+(This document compiles all primary training data sources, clinical triage guidelines,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 468.94 Td
+(medical diagnostic formulations, digital signal processing algorithms, and machine) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 452.94 Td
+(learning explainability frameworks underpinning the CuraPind AI clinical platform.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 436.94 Td
+() Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 420.94 Td
+(All datasets and protocols are compliant with the World Health Organization \(WHO\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 404.94 Td
+(Centers for Disease Control and Prevention \(CDC\), and Government of India National) Tj
+ET
+BT
+/F1 9.5 Tf
+0.280 0.320 0.300 rg
+75.00 388.94 Td
+(Centre for Disease Control \(IDSP / MoHFW\) epidemiological standards.) Tj
+ET
+1.000 1.000 1.000 rg
+0.850 0.900 0.880 RG
+1.00 w
+75.00 237.94 445.28 120.00 re
+B
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 337.94 Td
+(Core Hospital Dataset:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 337.94 Td
+(CDC NHAMCS \(Emergency Department Visits 2018-2021\)) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 320.94 Td
+(Clinical Protocols:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 320.94 Td
+(WHO Integrated Management of Childhood Illness \(IMCI\)) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 303.94 Td
+(National Surveillance:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 303.94 Td
+(IDSP MoHFW India Village Syndromic Outbreak Triggers) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 286.94 Td
+(Physiological Formulations:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 286.94 Td
+(Shock Index, Mean Arterial Pressure, Silent Hypoxia) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 269.94 Td
+(Signal Processing:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 269.94 Td
+(SciPy Butterworth \(0.7-4.0 Hz\), COUGHVID Spectral MFCC) Tj
+ET
+BT
+/F2 8.5 Tf
+0.137 0.549 0.431 rg
+88.00 252.94 Td
+(Model Explainability:) Tj
+ET
+BT
+/F1 8.2 Tf
+0.180 0.220 0.200 rg
+215.00 252.94 Td
+(Lundberg et al. SHAP TreeExplainer & Saabas Attribution) Tj
+ET
+0.160 0.650 0.510 rg
+0.00 14.00 595.28 10.00 re
+f
+0.824 1.000 0.561 rg
+0.00 24.00 595.28 4.00 re
+f
+
+endstream
+endobj
+8 0 obj
+<< /Length 7886 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Clinical References & Dataset Bibliography) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 2) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Clinical References & Citations  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(1. Primary Clinical Datasets & Data Pipelines) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(CuraPind AI integrates empirical patient datasets collected across large-scale hospital emergency) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(departments alongside synthetic clinical augmentations addressing critical rural triage scenarios.) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 688.89 100.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 694.89 Td
+(Dataset Name) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+145.00 688.89 100.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+150.00 694.89 Td
+(Source & Authority) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+245.00 688.89 160.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+250.00 694.89 Td
+(URL / Access Point) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+405.00 688.89 145.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+410.00 694.89 Td
+(Clinical Scope & Utilization) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 668.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 674.89 Td
+(CDC NHAMCS ED) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+145.00 668.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+150.00 674.89 Td
+(CDC / NCHS \(USA\)) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 668.89 160.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 674.89 Td
+(https://www.cdc.gov/nchs/ahcd/da..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+405.00 668.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+410.00 674.89 Td
+(50,000+ real ED visits \(2018-..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 648.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 654.89 Td
+(NHAMCS Stata FTP) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+145.00 648.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+150.00 654.89 Td
+(CDC NCHS Direct FTP) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 648.89 160.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 654.89 Td
+(ftp://ftp.cdc.gov/pub/Health_Sta..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+405.00 648.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+410.00 654.89 Td
+(Raw annual microdata archives..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 628.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 634.89 Td
+(CuraPind 50K CSV) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+145.00 628.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+150.00 634.89 Td
+(Synthesized & Curated) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 628.89 160.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 634.89 Td
+(Local: real_hospital_triage_50k...) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+405.00 628.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+410.00 634.89 Td
+(16-feature augmented set for ..) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 554.89 505.28 60.00 re
+B
+0.137 0.549 0.431 rg
+45.00 554.89 4.00 60.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 600.89 Td
+(CDC NHAMCS EXTRACTION VARIABLES: Variables extracted: AGE \(years\), TEMPF \(temp in deg F\),) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 586.89 Td
+(PULSE \(heart rate\), OXPULSE \(SpO2 %\), BPSYS / BPDIAS \(blood pressure\), IMMEDR \(Emergency) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 572.89 Td
+(Severity Index triage levels 1 to 5\), and Reason for Visit code RFV=1595.0 \(acute diarrhoea\).) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 508.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 508.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 515.89 Td
+(2. WHO Protocols & National Surveillance Standards) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 470.89 105.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 476.89 Td
+(Protocol Name) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+150.00 470.89 95.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+155.00 476.89 Td
+(Issuing Agency) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+245.00 470.89 165.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+250.00 476.89 Td
+(Official Reference Link) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+410.00 470.89 140.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+415.00 476.89 Td
+(Functional Responsibility) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 450.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 456.89 Td
+(WHO IMCI Guidelines) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 450.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 456.89 Td
+(World Health Org.) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 450.89 165.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 456.89 Td
+(https://www.who.int/publications/..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+410.00 450.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+415.00 456.89 Td
+(Age-adjusted tachypnea thres..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 430.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 436.89 Td
+(WHO Diarrhoea Manual) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 430.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 436.89 Td
+(World Health Org.) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 430.89 165.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 436.89 Td
+(https://www.who.int/publications/..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+410.00 430.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+415.00 436.89 Td
+(Plan A \(Home\), Plan B \(PHC Z..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 410.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 416.89 Td
+(IDSP Surveillance) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 410.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 416.89 Td
+(MoHFW Govt of India) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+245.00 410.89 165.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+250.00 416.89 Td
+(https://idsp.mohfw.gov.in/) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+410.00 410.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+415.00 416.89 Td
+(Village cluster definition \(..) Tj
+ET
+BT
+/F2 11 Tf
+0.137 0.549 0.431 rg
+45.00 382.89 Td
+(WHO IMCI Clinical References in Dataset) Tj
+ET
+0.880 0.920 0.900 RG
+1.00 w
+45.00 379.89 m 550.28 379.89 l S
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 359.39 Td
+(* WHO-IMCI-Diarrhoea-Severe-01: Referenced in dataset_sample.json for severe dehydration) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 345.89 Td
+(hypovolemic shock protocols.) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 329.39 Td
+(* WHO-Diarrhoea-Moderate-02: Referenced for Primary Health Centre referral with zinc) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 315.89 Td
+(supplementation and oral rehydration.) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+45.00 299.39 Td
+(* WHO IMCI Tachypnea Standards: Defines age-stratified thresholds preventing pediatric respiratory) Tj
+ET
+BT
+/F1 9.0 Tf
+0.180 0.220 0.220 rg
+65.00 285.89 Td
+(false negatives.) Tj
+ET
+
+endstream
+endobj
+9 0 obj
+<< /Length 10539 >>
+stream
+0.160 0.650 0.510 rg
+45.00 806.89 505.28 1.50 re
+f
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+45.00 811.89 Td
+(CuraPind AI  -  Clinical References & Dataset Bibliography) Tj
+ET
+BT
+/F1 8 Tf
+0.400 0.400 0.400 rg
+515.28 811.89 Td
+(Page 3) Tj
+ET
+0.850 0.900 0.880 rg
+45.00 35.00 505.28 0.80 re
+f
+BT
+/F1 7.5 Tf
+0.500 0.500 0.500 rg
+45.00 24.00 Td
+(CuraPind AI v24.15.0  |  Clinical References & Citations  |  MIT Open Source) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 758.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 758.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 765.89 Td
+(3. Medical Formulations & Physiological Indices) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 732.89 Td
+(The mathematical indices implemented in featureEngineering.js and feature_engineering.py derive from) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 718.89 Td
+(peer-reviewed emergency literature:) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 688.89 105.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 694.89 Td
+(Clinical Index) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+150.00 688.89 130.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+155.00 694.89 Td
+(Mathematical Formulation) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+280.00 688.89 145.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+285.00 694.89 Td
+(Peer-Reviewed Citation) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+425.00 688.89 125.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+430.00 694.89 Td
+(Normal vs Critical Values) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 668.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 674.89 Td
+(Shock Index \(SI\)) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 668.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 674.89 Td
+(SI = HR / Systolic BP) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 668.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 674.89 Td
+(Rady et al. Ann Emerg Med 199..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+425.00 668.89 125.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+430.00 674.89 Td
+(Normal: 0.5-0.7 | Occult ..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 648.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 654.89 Td
+(Mean Arterial Pressure) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 648.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 654.89 Td
+(MAP = DBP + \(SBP - DBP\)/3) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 648.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 654.89 Td
+(Klabunde, Cardiovascular Phys..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+425.00 648.89 125.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+430.00 654.89 Td
+(Normal: 70-105 | Hypoperf..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 628.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 634.89 Td
+(Silent Hypoxia Risk) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 628.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 634.89 Td
+(Tobin et al. AJRCCM 2020) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 628.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 634.89 Td
+(DOI: 10.1164/rccm.202006-2157CP) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+425.00 628.89 125.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+430.00 634.89 Td
+(Afebrile patients with Sp..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 608.89 105.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 614.89 Td
+(Tachypnea-Hypoxia Idx) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+150.00 608.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+155.00 614.89 Td
+(0.40\(RR\) + 0.35\(SpO2\) + 0...) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 608.89 145.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 614.89 Td
+(Composite Respiratory Distres..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+425.00 608.89 125.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+430.00 614.89 Td
+(Normal: < 0.35 | Impendin..) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 548.89 505.28 46.00 re
+B
+0.137 0.549 0.431 rg
+45.00 548.89 4.00 46.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 580.89 Td
+(SHOCK INDEX DIAGNOSTIC UTILITY: The Shock Index \(HR / SBP\) detects occult hypovolemia and) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 566.89 Td
+(sepsis hours before compensatory mechanisms fail and manifest as overt hypotension.) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 502.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 502.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 509.89 Td
+(4. Digital Signal Processing & Acoustic Biomarkers) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 464.89 95.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 470.89 Td
+(Domain) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+140.00 464.89 140.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+145.00 470.89 Td
+(Key Paper / Benchmark) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+280.00 464.89 135.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+285.00 470.89 Td
+(Digital Object Identifier \(DOI\)) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+415.00 464.89 135.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+420.00 470.89 Td
+(Implementation in System) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 444.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 450.89 Td
+(Optical PPG Pulse) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+140.00 444.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+145.00 450.89 Td
+(Verkruysse et al., Optics Ex..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 444.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 450.89 Td
+(https://doi.org/10.1364/OE...) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+415.00 444.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+420.00 450.89 Td
+(Green channel camera pulse ..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 424.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 430.89 Td
+(PPG Bandpass Filter) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+140.00 424.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+145.00 430.89 Td
+(Elgendi M., Curr Cardiol Rev..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 424.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 430.89 Td
+(https://pubmed.ncbi.nlm.nih..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+415.00 424.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+420.00 430.89 Td
+(Butterworth bandpass \(0.7-4..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 404.89 95.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 410.89 Td
+(Acoustic Cough AI) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+140.00 404.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+145.00 410.89 Td
+(COUGHVID Dataset \(Nature Sci..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+280.00 404.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+285.00 410.89 Td
+(https://doi.org/10.1038/s41..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+415.00 404.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+420.00 410.89 Td
+(Spectral centroid, RMS, ZCR..) Tj
+ET
+0.137 0.549 0.431 rg
+45.00 356.89 505.28 24.00 re
+f
+0.824 1.000 0.561 rg
+45.00 356.89 5.00 24.00 re
+f
+BT
+/F2 12 Tf
+1.000 1.000 1.000 rg
+59.00 363.89 Td
+(5. Explainable AI & Machine Learning Foundations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 330.89 Td
+(The interpretability pipeline in explainer.py leverages state-of-the-art cooperative game theory) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.150 0.150 rg
+45.00 316.89 Td
+(\(Shapley values\) adapted for decision tree ensembles:) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+45.00 286.89 100.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+50.00 292.89 Td
+(Framework) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+145.00 286.89 140.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+150.00 292.89 Td
+(Primary Authors & Source) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+285.00 286.89 130.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+290.00 292.89 Td
+(Repository / Paper Link) Tj
+ET
+0.137 0.549 0.431 rg
+0.110 0.440 0.340 RG
+0.80 w
+415.00 286.89 135.00 20.00 re
+B
+BT
+/F2 8.5 Tf
+1.000 1.000 1.000 rg
+420.00 292.89 Td
+(Role in CuraPind AI) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 266.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 272.89 Td
+(SHAP TreeExplainer) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+145.00 266.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+150.00 272.89 Td
+(Lundberg et al., Nature Mach..) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+285.00 266.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+290.00 272.89 Td
+(https://github.com/shap/shap) Tj
+ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.820 RG
+0.50 w
+415.00 266.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+420.00 272.89 Td
+(Computes exact per-patient ..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+45.00 246.89 100.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+50.00 252.89 Td
+(Saabas Tree Path) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+145.00 246.89 140.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+150.00 252.89 Td
+(Ando Saabas \(tree-interpreter\)) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+285.00 246.89 130.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+290.00 252.89 Td
+(https://github.com/andosa/..) Tj
+ET
+0.965 0.985 0.975 rg
+0.800 0.850 0.820 RG
+0.50 w
+415.00 246.89 135.00 20.00 re
+B
+BT
+/F1 8.0 Tf
+0.150 0.180 0.180 rg
+420.00 252.89 Td
+(Zero-dependency fallback tr..) Tj
+ET
+0.940 0.980 0.960 rg
+0.160 0.650 0.510 RG
+1.00 w
+45.00 172.89 505.28 60.00 re
+B
+0.137 0.549 0.431 rg
+45.00 172.89 4.00 60.00 re
+f
+BT
+/F2 9.0 Tf
+0.050 0.350 0.250 rg
+59.00 218.89 Td
+(SUMMARY CITATION STATEMENT: CuraPind AI integrates open datasets from the CDC, guidelines) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 204.89 Td
+(from the World Health Organization, and clinical protocols from the Ministry of Health and) Tj
+ET
+BT
+/F1 9.0 Tf
+0.100 0.300 0.220 rg
+59.00 190.89 Td
+(Family Welfare \(India\) to deliver verified, evidence-backed clinical triage.) Tj
+ET
+
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000415 00000 n 
+0000000525 00000 n 
+0000000635 00000 n 
+0000000745 00000 n 
+0000003830 00000 n 
+0000011768 00000 n 
+trailer << /Size 10 /Root 1 0 R >>
+startxref
+22360
+%%EOF

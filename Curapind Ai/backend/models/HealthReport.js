@@ -6,6 +6,14 @@ const HealthReportSchema = new mongoose.Schema({
         ref: 'User',
         required: true
     },
+    patientName: {
+        type: String,
+        default: 'Self'
+    },
+    villageName: {
+        type: String,
+        default: 'Unknown'
+    },
     age: {
         type: Number,
         required: true
@@ -24,14 +32,37 @@ const HealthReportSchema = new mongoose.Schema({
     },
     bloodPressure: {
         type: String, // E.g. "120/80"
-        required: false // Optional, populated via PPG scan
+        required: false
     },
+    diarrhoea: {
+        type: String,
+        default: 'None'
+    },
+    respiratoryRate: {
+        type: Number,
+        default: 0
+    },
+    acousticScore: {
+        type: Number,
+        default: 0
+    },
+    acousticLabel: {
+        type: String,
+        default: ''
+    },
+    symptomProgression: {
+        type: String,
+        default: 'None'
+    },
+    whoDangerSigns: [{
+        type: String
+    }],
     symptoms: [{
         type: String
     }],
     durationOfSymptoms: {
         type: String,
-        required: true
+        required: false
     },
     riskLevel: {
         type: String, // Low Risk, Moderate Risk, Critical Risk
@@ -44,6 +75,14 @@ const HealthReportSchema = new mongoose.Schema({
     recommendedAction: {
         type: String, // Home Care, Visit PHC, Emergency Hospital
         required: true
+    },
+    riskDrivers: [{
+        label: String,
+        weight: Number
+    }],
+    computedFeatures: {
+        type: Object,
+        default: {}
     },
     createdAt: {
         type: Date,

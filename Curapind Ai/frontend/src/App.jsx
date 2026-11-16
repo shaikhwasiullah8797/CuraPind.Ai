@@ -7,6 +7,7 @@ import MultiStepForm from './pages/HealthCheck/MultiStepForm';
 import Result from './pages/HealthCheck/Result';
 import History from './pages/History';
 import Profile from './pages/Profile';
+import BMOSurveillance from './pages/BMOSurveillance';
 
 const PrivateRoute = ({ children }) => {
   const { token, loading } = useContext(AuthContext);
@@ -25,6 +26,7 @@ function AppRoutes() {
           <Route path="/result" element={<PrivateRoute><Result /></PrivateRoute>} />
           <Route path="/history" element={<PrivateRoute><History /></PrivateRoute>} />
           <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
+          <Route path="/surveillance" element={<PrivateRoute><BMOSurveillance /></PrivateRoute>} />
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
