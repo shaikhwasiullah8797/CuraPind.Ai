@@ -42,50 +42,70 @@ Patients are classified into three calibrated clinical tiers:
 
 ```mermaid
 flowchart TD
-    subgraph Capture["1. Multi-Modal Sensory Capture (Zero External Hardware)"]
-        A["Smartphone Camera Lens\nOptical PPG (0.7-4.0 Hz)"]
-        B["Browser Microphone\nWeb Audio API (FFT / MFCCs)"]
-        C["15s Tap-to-Count\nRespiratory Rate Helper"]
-        D["Manual Vitals Entry\n(Temp, SpO2, BP, Diarrhoea)"]
+    subgraph S1["1. Multi-Modal Sensory Capture (Zero External Hardware)"]
+        A["Smartphone Camera Lens<br/>Optical PPG (0.7-4.0 Hz)"]
+        B["Browser Microphone<br/>Web Audio API (FFT / MFCCs)"]
+        C["15s Tap-to-Count<br/>Respiratory Rate Helper"]
+        D["Manual Vitals Entry<br/>(Temp, SpO2, BP, Diarrhoea)"]
     end
 
-    subgraph FeatureEng["2. Clinical Feature Engineering Engine"]
-        E["Blood Pressure Parsing & Age-Adjusted Imputation"]
+    subgraph S2["2. Clinical Feature Engineering Engine"]
+        E["Blood Pressure Parsing & Age Imputation"]
         F["Shock Index (SI = HR / SBP)"]
         G["Mean Arterial Pressure (MAP)"]
         H["Tachypnea-Hypoxia Index (Composite RR + SpO2 + Acoustic)"]
         I["Dehydration Severity Score (0-5 Scale)"]
-        J["Elderly Hypoxia Risk (Age > 50 afebrile interaction)"]
+        J["Elderly Hypoxia Risk (Age > 50 interaction)"]
     end
 
-    subgraph DualInference["3. Dual-Engine Inference Pipeline"]
+    subgraph S3["3. Dual-Engine Inference Pipeline"]
         K{"Network Online?"}
-        L["Express.js Server\nPOST /api/health/predict"]
-        M["Client Browser Engine\ntriageEngine.js (Zero Latency)"]
-        N["Balanced Random Forest\n(200 Trees, 99.1% Accuracy)"]
+        L["Express.js Server<br/>POST /api/health/predict"]
+        M["Client Browser Engine<br/>triageEngine.js (Zero Latency)"]
+        N["Balanced Random Forest<br/>(200 Trees, 99.1% Accuracy)"]
     end
 
-    subgraph Output["4. Clinical Output & Explainability"]
-        O["Triage Risk Level\n(Low / Moderate / Critical)"]
+    subgraph S4["4. Clinical Output & Explainability"]
+        O["Triage Risk Level<br/>(Low / Moderate / Critical)"]
         P["Confidence Score (%)"]
-        Q["Top 3 Plain-Language\nSHAP Risk Drivers"]
+        Q["Top 3 Plain-Language<br/>SHAP Risk Drivers"]
     end
 
-    subgraph ActionBridge["5. Downstream Actions & Surveillance"]
-        R["Zero-Dependency QR Slip\n(Galois Field GF256 + Reed-Solomon)"]
-        S["1-Tap Offline SMS Note\nSOAP Format to Nearest PHC"]
-        T["BMO Outbreak Surveillance\nIDSP 48h Cluster Flagging (>=5 cases)"]
+    subgraph S5["5. Downstream Actions & Surveillance"]
+        R["Zero-Dependency QR Slip<br/>(Galois Field GF256 + Reed-Solomon)"]
+        S["1-Tap Offline SMS Note<br/>SOAP Format to Nearest PHC"]
+        T["BMO Outbreak Surveillance<br/>IDSP 48h Cluster Flagging (>=5 cases)"]
     end
 
-    Capture --> FeatureEng
-    FeatureEng --> DualInference
-    K -->|Yes| L
-    K -->|No (Offline)| M
-    L -. Validated against .-> N
-    M -. Validated against .-> N
-    L --> Output
-    M --> Output
-    Output --> ActionBridge
+    A --> E
+    B --> H
+    C --> H
+    D --> E
+    D --> I
+
+    E --> K
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> K
+
+    K -->|"Yes (Cloud API)"| L
+    K -->|"No (Offline Local)"| M
+
+    L -.->|"Validated by"| N
+    M -.->|"Validated by"| N
+
+    L --> O
+    M --> O
+    L --> P
+    M --> P
+    L --> Q
+    M --> Q
+
+    O --> R
+    O --> S
+    O --> T
 ```
 
 ---
